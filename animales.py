@@ -9,7 +9,8 @@ else:
             'Especie':['Panda'],
             'Tipo de alimento':['Bamboo'],
             'Tiempo en aire libre':[45],
-            'Tiempo entre comidas':[20]}
+            'Tiempo entre comidas':[20],
+            'Vacunas al día':[2]}
     df = pandas.DataFrame(data)
     #Guardar Documento
     df.to_csv('data.csv',index=False)
@@ -17,8 +18,8 @@ print(df.to_string())
 def save():
     df.to_csv('data.csv',index=False)
     
-def add(nombre, especie, alimento, tiempo,comida):
-    df.loc[len(df.index)] = [nombre,especie,alimento,tiempo,comida]
+def add(nombre, especie, alimento, tiempo, comida, vacuna):
+    df.loc[len(df.index)] = [nombre,especie,alimento,tiempo,comida,vacuna]
     save()
 def read(nombre):
     name = df.loc[df['Nombre'] == nombre]

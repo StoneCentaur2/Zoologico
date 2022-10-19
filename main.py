@@ -7,7 +7,8 @@ while(True):
             input("Escribe la especie: "),
             input("Escribe el tipo de alimento: "),
             int(input("Escribe el tiempo necesario que debe estar afuera (Minutos): ")),
-            int(input("Escribe el tiempo entre cada comida (Minutos): ")))
+            int(input("Escribe el tiempo entre cada comida (Minutos): ")),
+            int(input("Cantidad de vacunas diarias: ")))
     elif select == "2":
         read(input("Buscar: "))
     elif select == "3":

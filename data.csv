@@ -1,3 +1,4 @@
-Nombre,Especie,Tipo de alimento,Tiempo en aire libre,Tiempo entre comidas
-Alice,Panda,Bamboo,45,20
-Candace,Canguro,hierbas,60,240
+Nombre,Especie,Tipo de alimento,Tiempo en aire libre,Tiempo entre comidas,Vacunas al día
+Alice,Panda,Bamboo,45,20,0
+Candace,Canguro,hierbas,60,240,0
+Rogelio,Pinguino,Pescado,120,120,2
