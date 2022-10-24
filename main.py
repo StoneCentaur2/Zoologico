@@ -1,7 +1,7 @@
 from animales import *
 select=0
 while(True):
-    select=input("Selecciona una opcion: \n 1: Agregar, 2: Buscar, 3: Eliminar, 4: Mostrar todo, 5: Cerrar Programa \n")
+    select=input("\n||------------------------||\n|| Selecciona una opcion: ||\n||------------------------||\n|| 1: Agregar             ||\n|| 2: Buscar              ||\n|| 3: Eliminar            ||\n|| 4: Mostrar todo        ||\n|| 5: Cerrar Programa     ||\n||------------------------||\n")
     if select == "1":
         add(input("Escribe el nombre: "),
             input("Escribe la especie: "),
@@ -19,4 +19,5 @@ while(True):
         print("Buenas Noches!")
         break
     else:
+        print("Dato mal ingresado")
         break
